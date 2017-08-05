@@ -2,7 +2,9 @@
 
 @Component({
     selector: 'app',
-    template: '<h2>asdasd</h2>'
+    template: '<h2>{{title}}</h2><basic></basic><ifcase></ifcase>'
 })
 
-export class AppComponent { }
+export class AppComponent { 
+    title = 'Welcome To Angular 2 World'
+}
