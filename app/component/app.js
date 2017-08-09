@@ -9,15 +9,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'Welcome To Angular 2 World';
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'app',
-            template: '<h2>{{title}}</h2>'
+            template: " \n        <h2>asdads</h2>\n    "
         })
     ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=app.js.map
